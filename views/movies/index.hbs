@@ -1,0 +1,21 @@
+<div class="index">
+  <h2>All movies</h2>
+  <div class="all-items container">
+    {{#each Movies}}
+    <div class="each-item col-md-4">
+      <h4>{{title}}</h4>
+      <br>
+      <a class="details-button" href="/movies/{{_id}}">Details</a>
+      <a class="edit-button" href="/movies/{{_id}}/edit">Edit</a>
+      <form action="/movies/{{_id}}/delete" method="post">
+        <button class="delete-button">Delete</button>
+      </form>
+    </div>
+    {{/each}}
+  </div>
+  <br>
+  <div class="homepage-buttons">
+    <a href="/movies/new">New Movie</a>
+    <a href="/">Back to homepage</a>
+  </div>
+</div>

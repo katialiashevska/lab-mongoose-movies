@@ -1,8 +1,147 @@
+* {
+  background-color: lightblue !important;
+  text-align: center;
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  font-size: 15px;
+}
+
+.homepage {
+  margin-top: 150px;
+}
+
+.homepage-buttons {
+  margin: 30px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.homepage-buttons a {
+  text-decoration: none;
+  background-color: lightcoral !important;
+  color: white !important;
+  padding: 10px 30px;
+  border: 1px white solid;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.homepage-buttons a:hover {
+  text-decoration: none;
+  background-color: slateblue !important;
+  color: white;
+}
+
+.all-items {
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.each-item {
+  margin: 20px auto;
+}
+
+.details-button {
+  text-decoration: none;
+  background-color: lightseagreen !important;
+  color: white !important;
+  padding: 7px 20px;
+  border: 1px white solid;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.details-button:hover {
+  text-decoration: none;
+  background-color: seagreen !important;
+  color: white;
+}
+
+.edit-button {
+  text-decoration: none;
+  background-color: palevioletred !important;
+  color: white !important;
+  padding: 7px 20px;
+  border: 1px white solid;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.edit-button:hover {
+  text-decoration: none;
+  background-color: mediumvioletred !important;
+  color: white;
+}
+
+.delete-button {
+  margin: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: slateblue !important;
+  color: white;
+  padding: 5px 15px;
+  border: 1px white solid;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 100%;
+}
+
+.delete-button:hover {
+  text-decoration: none;
+  background-color: purple !important;
+  color: white;
+}
+
+.show {
+  margin-top: 50px; 
+}
+
+.edit {
+  margin-top: 50px; 
+}
+
+.edit form {
+  margin: 30px;
+}
+
+input {
+  border: none;
+  background-color: lightcyan !important;
+  border-radius: 15px;
+  font-style: italic;
+}
+
+.save-button {
+  margin: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: slateblue !important;
+  color: white;
+  padding: 5px 15px;
+  border: 1px white solid;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 100%;
+}
+
+.save-button:hover {
+  text-decoration: none;
+  background-color: lightcoral !important;
+  color: white;
+}
+
+.new {
+  margin-top: 50px; 
+}
+
+.new form {
+  margin: 30px;
 }
